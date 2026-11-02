@@ -2,7 +2,7 @@
 
 **Software Engineer · Backend & Full-Stack · Lahore, Pakistan · Open to freelance and remote work**
 
-I have 5+ years of experience building and operating backend and full-stack systems with C#, .NET,
+I have a vast experience building and operating backend and full-stack systems with C#, .NET,
 ASP.NET Core, PostgreSQL and AWS-hosted infrastructure. I design REST APIs, service-layer workflows and
 data-access patterns for operationally important software: monitoring systems, simulation platforms,
 data pipelines and customer-facing products. I care about correctness, maintainability and release
