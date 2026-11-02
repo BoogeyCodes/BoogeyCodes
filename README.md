@@ -55,6 +55,9 @@ to production troubleshooting.
 
 More coming regularly. Each repo has a README that explains the design decisions, a test suite and CI.
 
+📚 **Deeper write-ups** for every project — purpose, stack, architecture and the decisions behind
+them — live in [**project-docs**](https://github.com/BoogeyCodes/project-docs).
+
 ## Experience
 
 - **Software Engineer, NorthBay Solutions** (Dec 2022 – present). C#/.NET backend services and REST
