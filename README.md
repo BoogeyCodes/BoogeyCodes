@@ -51,6 +51,9 @@ to production troubleshooting.
 | --- | --- | --- |
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
 | [**shortlink-api**](https://github.com/BoogeyCodes/shortlink-api) | Production-shaped URL shortener: CQRS slices, validation pipeline, RFC 7807 errors, integration tests | ASP.NET Core 8 Minimal API, MediatR, FluentValidation, EF Core, Serilog, xUnit, Docker |
+| [**cronparse**](https://github.com/BoogeyCodes/cronparse) | Parse cron expressions, compute the next run times, and describe them in plain English | Python, pytest |
+| [**fuzzykit**](https://github.com/BoogeyCodes/fuzzykit) | String similarity and fuzzy search: Levenshtein, Jaro-Winkler, Sorensen-Dice, ranked search | TypeScript, tsup, Vitest |
+| [**bytefmt**](https://github.com/BoogeyCodes/bytefmt) | `DataSize` value type: parse and format human byte sizes in binary and decimal units | C# / .NET 8, xUnit |
 | [**quickpoll**](https://github.com/BoogeyCodes/quickpoll) | Polls API: create polls, vote once per voter, live results with percentages; validations and a clean JSON error contract | Ruby on Rails 7.1, SQLite, Minitest |
 | [**recall**](https://github.com/BoogeyCodes/recall) | Spaced-repetition flashcards driven by the SM-2 algorithm; signals and localStorage | Angular 18, TypeScript, Jasmine |
 | [**contrastcheck**](https://github.com/BoogeyCodes/contrastcheck) | WCAG colour-contrast checker: live ratio, accessibility-level breakdown, suggested accessible colour | React 19, TypeScript, Vitest |
