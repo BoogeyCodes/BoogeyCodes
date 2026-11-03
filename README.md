@@ -52,6 +52,8 @@ to production troubleshooting.
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
 | [**shortlink-api**](https://github.com/BoogeyCodes/shortlink-api) | Production-shaped URL shortener: CQRS slices, validation pipeline, RFC 7807 errors, integration tests | ASP.NET Core 8 Minimal API, MediatR, FluentValidation, EF Core, Serilog, xUnit, Docker |
 | [**ratekit**](https://github.com/BoogeyCodes/ratekit) | Zero-dependency keyed rate limiter: token-bucket and sliding-window, LRU key eviction, ESM + CJS | TypeScript, tsup, Vitest, GitHub Actions matrix |
+| [**flagpole**](https://github.com/BoogeyCodes/flagpole) | Feature-flag service with deterministic percentage rollouts | Python, FastAPI, Pydantic, pytest |
+| [**jsondiff**](https://github.com/BoogeyCodes/jsondiff) | CLI that structurally diffs two JSON files by path; packable as a dotnet tool | C# / .NET 8, System.Text.Json, xUnit |
 | [**logsift**](https://github.com/BoogeyCodes/logsift) | Zero-dependency CLI to filter and summarise JSON-lines and plain-text logs | Python 3.10+, pytest, ruff, GitHub Actions matrix |
 
 More coming regularly. Each repo has a README that explains the design decisions, a test suite and CI.
