@@ -51,6 +51,8 @@ to production troubleshooting.
 | --- | --- | --- |
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
 | [**shortlink-api**](https://github.com/BoogeyCodes/shortlink-api) | Production-shaped URL shortener: CQRS slices, validation pipeline, RFC 7807 errors, integration tests | ASP.NET Core 8 Minimal API, MediatR, FluentValidation, EF Core, Serilog, xUnit, Docker |
+| [**gridcalc**](https://github.com/BoogeyCodes/gridcalc) | Spreadsheet formula engine: Pratt-parsed formulas, ranges, a dependency graph with incremental recompute, circular-reference detection | TypeScript, tsup, Vitest |
+| [**sketchkit**](https://github.com/BoogeyCodes/sketchkit) | Probabilistic data structures (Bloom filter, Count-Min Sketch, HyperLogLog) with statistical guarantee tests | Python, pytest |
 | [**ratekit**](https://github.com/BoogeyCodes/ratekit) | Zero-dependency keyed rate limiter: token-bucket and sliding-window, LRU key eviction, ESM + CJS | TypeScript, tsup, Vitest, GitHub Actions matrix |
 | [**flagpole**](https://github.com/BoogeyCodes/flagpole) | Feature-flag service with deterministic percentage rollouts | Python, FastAPI, Pydantic, pytest |
 | [**jsondiff**](https://github.com/BoogeyCodes/jsondiff) | CLI that structurally diffs two JSON files by path; packable as a dotnet tool | C# / .NET 8, System.Text.Json, xUnit |
