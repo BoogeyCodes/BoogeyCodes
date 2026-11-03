@@ -51,6 +51,12 @@ to production troubleshooting.
 | --- | --- | --- |
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
 | [**shortlink-api**](https://github.com/BoogeyCodes/shortlink-api) | Production-shaped URL shortener: CQRS slices, validation pipeline, RFC 7807 errors, integration tests | ASP.NET Core 8 Minimal API, MediatR, FluentValidation, EF Core, Serilog, xUnit, Docker |
+| [**statemachine**](https://github.com/BoogeyCodes/statemachine) | A declarative finite state machine: states, transitions, guards and callbacks | Python, pytest |
+| [**expreval**](https://github.com/BoogeyCodes/expreval) | Safe arithmetic expression evaluator (shunting-yard), functions, variables, no `eval` | Python, pytest |
+| [**globlite**](https://github.com/BoogeyCodes/globlite) | Glob matcher (`*`, `**`, `?`, classes, braces) compiled to RegExp | TypeScript, tsup, Vitest |
+| [**tinycsv**](https://github.com/BoogeyCodes/tinycsv) | RFC 4180 CSV parser and stringifier with object mapping | TypeScript, tsup, Vitest |
+| [**Outcome**](https://github.com/BoogeyCodes/outcome) | Result and Option functional types: Map, Bind, Match | C# / .NET 8, xUnit |
+| [**tabulate**](https://github.com/BoogeyCodes/tabulate) | CLI rendering CSV/TSV as aligned ASCII or Markdown tables | C# / .NET 8, xUnit |
 | [**cronparse**](https://github.com/BoogeyCodes/cronparse) | Parse cron expressions, compute the next run times, and describe them in plain English | Python, pytest |
 | [**fuzzykit**](https://github.com/BoogeyCodes/fuzzykit) | String similarity and fuzzy search: Levenshtein, Jaro-Winkler, Sorensen-Dice, ranked search | TypeScript, tsup, Vitest |
 | [**bytefmt**](https://github.com/BoogeyCodes/bytefmt) | `DataSize` value type: parse and format human byte sizes in binary and decimal units | C# / .NET 8, xUnit |
