@@ -51,6 +51,9 @@ to production troubleshooting.
 | --- | --- | --- |
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
 | [**shortlink-api**](https://github.com/BoogeyCodes/shortlink-api) | Production-shaped URL shortener: CQRS slices, validation pipeline, RFC 7807 errors, integration tests | ASP.NET Core 8 Minimal API, MediatR, FluentValidation, EF Core, Serilog, xUnit, Docker |
+| [**quickpoll**](https://github.com/BoogeyCodes/quickpoll) | Polls API: create polls, vote once per voter, live results with percentages; validations and a clean JSON error contract | Ruby on Rails 7.1, SQLite, Minitest |
+| [**recall**](https://github.com/BoogeyCodes/recall) | Spaced-repetition flashcards driven by the SM-2 algorithm; signals and localStorage | Angular 18, TypeScript, Jasmine |
+| [**contrastcheck**](https://github.com/BoogeyCodes/contrastcheck) | WCAG colour-contrast checker: live ratio, accessibility-level breakdown, suggested accessible colour | React 19, TypeScript, Vitest |
 | [**gridcalc**](https://github.com/BoogeyCodes/gridcalc) | Spreadsheet formula engine: Pratt-parsed formulas, ranges, a dependency graph with incremental recompute, circular-reference detection | TypeScript, tsup, Vitest |
 | [**sketchkit**](https://github.com/BoogeyCodes/sketchkit) | Probabilistic data structures (Bloom filter, Count-Min Sketch, HyperLogLog) with statistical guarantee tests | Python, pytest |
 | [**ratekit**](https://github.com/BoogeyCodes/ratekit) | Zero-dependency keyed rate limiter: token-bucket and sliding-window, LRU key eviction, ESM + CJS | TypeScript, tsup, Vitest, GitHub Actions matrix |
