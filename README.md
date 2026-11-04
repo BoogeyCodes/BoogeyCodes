@@ -49,6 +49,7 @@ to production troubleshooting.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [**Trackpense**](https://github.com/BoogeyCodes/trackpense) | Personal finance tracker built entirely in C# with Blazor: transactions, budgets, and a live dashboard with inline-SVG charts | C# / .NET 8, Blazor Server, EF Core, SQLite, Docker |
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
 | [**shortlink-api**](https://github.com/BoogeyCodes/shortlink-api) | Production-shaped URL shortener: CQRS slices, validation pipeline, RFC 7807 errors, integration tests | ASP.NET Core 8 Minimal API, MediatR, FluentValidation, EF Core, Serilog, xUnit, Docker |
 | [**statemachine**](https://github.com/BoogeyCodes/statemachine) | A declarative finite state machine: states, transitions, guards and callbacks | Python, pytest |
