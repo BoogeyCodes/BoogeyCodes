@@ -68,6 +68,7 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [**TaskForge**](https://github.com/BoogeyCodes/taskforge) | Team project & issue-tracker API: JWT auth, projects/members/roles, Kanban boards, issues with labels/assignees/comments, filtered+paginated queries, and real-time board updates over SignalR | ASP.NET Core 8, MediatR (CQRS), FluentValidation, EF Core, SignalR, JWT, Serilog, xUnit, Docker |
 | [**Trackpense**](https://github.com/BoogeyCodes/trackpense) | Personal finance tracker built entirely in C# with Blazor: transactions, budgets, and a live dashboard with inline-SVG charts | C# / .NET 8, Blazor Server, EF Core, SQLite, Docker |
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
 | [**shortlink-api**](https://github.com/BoogeyCodes/shortlink-api) | Production-shaped URL shortener: CQRS slices, validation pipeline, RFC 7807 errors, integration tests | ASP.NET Core 8 Minimal API, MediatR, FluentValidation, EF Core, Serilog, xUnit, Docker |
