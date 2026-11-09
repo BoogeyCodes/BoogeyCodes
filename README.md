@@ -1,6 +1,6 @@
 # Hi, I'm Abdul Raheem
 
-**Software Engineer · Backend & Full-Stack · Lahore, Pakistan · Open to freelance and remote work**
+**Software Engineer · Backend, Full-Stack & AI coding-agent evaluation · Lahore, Pakistan · Open to freelance and remote work**
 
 I have a vast experience building and operating backend and full-stack systems with C#, .NET,
 ASP.NET Core, PostgreSQL and AWS-hosted infrastructure. I design REST APIs, service-layer workflows and
@@ -8,6 +8,12 @@ data-access patterns for operationally important software: monitoring systems, s
 data pipelines and customer-facing products. I care about correctness, maintainability and release
 quality, and I'm comfortable owning a feature from database schema to React component to CI pipeline
 to production troubleshooting.
+
+I also build **tooling for evaluating AI coding agents** — reading an agent's run, scoring it on a
+quality rubric, comparing runs side by side, and running its code against tests in a sandbox — the
+kind of work frontier AI training and evaluation teams do. Strong in Python and TypeScript, fluent
+with shell, Git, Docker and test pipelines, and comfortable running and modifying real projects
+locally.
 
 📫 abdulraheem07170@gmail.com
 
@@ -44,6 +50,19 @@ to production troubleshooting.
 | **Architecture** | REST, OpenAPI/Swagger, microservices, CQRS, vertical slices, repository pattern, dependency injection, OOAD, design patterns |
 | **Practices** | Agile/Scrum, code review, root-cause analysis, defect reproduction, CI/CD, Git, Jira, Bitbucket |
 | **Other** | Web crawling and scraping, Windows services, Shopify, Postman, Visual Studio, VS Code |
+
+## AI coding-agent evaluation toolkit
+
+A suite for reviewing AI coding agents — the workflow of rating, ranking and verifying agent runs.
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**AgentScore**](https://github.com/BoogeyCodes/agentscore) | Web app to rate three agent runs on a 10-dimension rubric, rank them, and export the review | React, TypeScript |
+| [**agentrubric**](https://github.com/BoogeyCodes/agentrubric) | Score and rank agent runs against a quality rubric; Markdown/JSON report | Python, CLI |
+| [**runtrace**](https://github.com/BoogeyCodes/runtrace) | Normalise heterogeneous agent run transcripts into one schema with metrics | TypeScript |
+| [**patchkit**](https://github.com/BoogeyCodes/patchkit) | Parse, summarise and apply the unified diffs agents produce | Python |
+| [**sandrun**](https://github.com/BoogeyCodes/sandrun) | Run an agent's work against tests in an isolated sandbox (local or Docker) | Python, Docker |
+| [**difflens**](https://github.com/BoogeyCodes/difflens) | Side-by-side multi-run diff views of what each agent changed | TypeScript |
 
 ## Featured projects
 
