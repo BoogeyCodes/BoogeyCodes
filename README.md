@@ -68,6 +68,7 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [**FairShare**](https://github.com/BoogeyCodes/fairshare) | Shared-expense tracker (Splitwise-style): groups, four split strategies (equal/exact/percent/shares) in integer cents, per-member balances, and a minimal "settle-up" that collapses debts into the fewest payments. JSON API **and** a server-rendered HTMX web UI | Python, FastAPI, SQLAlchemy 2.0, SQLite, Jinja2 + HTMX, Pydantic, pytest, Docker |
 | [**TaskForge**](https://github.com/BoogeyCodes/taskforge) | Team project & issue-tracker API: JWT auth, projects/members/roles, Kanban boards, issues with labels/assignees/comments, filtered+paginated queries, and real-time board updates over SignalR | ASP.NET Core 8, MediatR (CQRS), FluentValidation, EF Core, SignalR, JWT, Serilog, xUnit, Docker |
 | [**Trackpense**](https://github.com/BoogeyCodes/trackpense) | Personal finance tracker built entirely in C# with Blazor: transactions, budgets, and a live dashboard with inline-SVG charts | C# / .NET 8, Blazor Server, EF Core, SQLite, Docker |
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
