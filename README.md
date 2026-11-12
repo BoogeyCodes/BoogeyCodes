@@ -58,10 +58,10 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [**AgentScore**](https://github.com/BoogeyCodes/agentscore) | Web app to rate three agent runs on a 10-dimension rubric, rank them, and export the review | React, TypeScript |
-| [**agentrubric**](https://github.com/BoogeyCodes/agentrubric) | Score and rank agent runs against a quality rubric; Markdown/JSON report | Python, CLI |
+| [**agentrubric**](https://github.com/BoogeyCodes/agentrubric) | Agent-evaluation **platform**: score & rank runs against a 10-dimension rubric, a web dashboard, a REST API, and a cross-evaluation agent leaderboard | Python, FastAPI, SQLite, Docker |
 | [**runtrace**](https://github.com/BoogeyCodes/runtrace) | Normalise heterogeneous agent run transcripts into one schema with metrics | TypeScript |
 | [**patchkit**](https://github.com/BoogeyCodes/patchkit) | Parse, summarise and apply the unified diffs agents produce | Python |
-| [**sandrun**](https://github.com/BoogeyCodes/sandrun) | Run an agent's work against tests in an isolated sandbox (local or Docker) | Python, Docker |
+| [**sandrun**](https://github.com/BoogeyCodes/sandrun) | Sandbox-execution **service**: run agent work against tests (local or Docker), a web dashboard, a REST API, and pass-rate tracking across runs | Python, FastAPI, SQLite, Docker |
 | [**difflens**](https://github.com/BoogeyCodes/difflens) | Side-by-side multi-run diff views of what each agent changed | TypeScript |
 
 ## Featured projects
