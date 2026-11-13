@@ -59,7 +59,7 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 | --- | --- | --- |
 | [**AgentScore**](https://github.com/BoogeyCodes/agentscore) | Web app to rate three agent runs on a 10-dimension rubric, rank them, and export the review | React, TypeScript |
 | [**agentrubric**](https://github.com/BoogeyCodes/agentrubric) | Agent-evaluation **platform**: score & rank runs against a 10-dimension rubric, a web dashboard, a REST API, and a cross-evaluation agent leaderboard | Python, FastAPI, SQLite, Docker |
-| [**runtrace**](https://github.com/BoogeyCodes/runtrace) | Normalise heterogeneous agent run transcripts into one schema with metrics | TypeScript |
+| [**runtrace**](https://github.com/BoogeyCodes/runtrace) | Normalise heterogeneous agent run transcripts into one schema **and a browser run-comparison dashboard**: metrics table, side-by-side bars, and shared-file detection | TypeScript, Vite, Docker |
 | [**patchkit**](https://github.com/BoogeyCodes/patchkit) | Parse, summarise and apply the unified diffs agents produce | Python |
 | [**sandrun**](https://github.com/BoogeyCodes/sandrun) | Sandbox-execution **service**: run agent work against tests (local or Docker), a web dashboard, a REST API, and pass-rate tracking across runs | Python, FastAPI, SQLite, Docker |
 | [**difflens**](https://github.com/BoogeyCodes/difflens) | Side-by-side multi-run diff views of what each agent changed | TypeScript |
@@ -83,7 +83,7 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 | [**tabulate**](https://github.com/BoogeyCodes/tabulate) | CLI rendering CSV/TSV as aligned ASCII or Markdown tables | C# / .NET 8, xUnit |
 | [**cronparse**](https://github.com/BoogeyCodes/cronparse) | Parse cron expressions, compute the next run times, and describe them in plain English | Python, pytest |
 | [**fuzzykit**](https://github.com/BoogeyCodes/fuzzykit) | String similarity and fuzzy search: Levenshtein, Jaro-Winkler, Sorensen-Dice, ranked search | TypeScript, tsup, Vitest |
-| [**bytefmt**](https://github.com/BoogeyCodes/bytefmt) | `DataSize` value type: parse and format human byte sizes in binary and decimal units | C# / .NET 8, xUnit |
+| [**bytefmt**](https://github.com/BoogeyCodes/bytefmt) | A `DataSize` value type **and DiskScope**, a disk-usage explorer built on it: a scan engine + an ASP.NET Core dashboard and REST API showing the biggest folders, file types and files | C# / .NET 8, ASP.NET Core, xUnit, Docker |
 | [**quickpoll**](https://github.com/BoogeyCodes/quickpoll) | Polls API: create polls, vote once per voter, live results with percentages; validations and a clean JSON error contract | Ruby on Rails 7.1, SQLite, Minitest |
 | [**recall**](https://github.com/BoogeyCodes/recall) | Spaced-repetition flashcards driven by the SM-2 algorithm; signals and localStorage | Angular 18, TypeScript, Jasmine |
 | [**contrastcheck**](https://github.com/BoogeyCodes/contrastcheck) | WCAG colour-contrast checker: live ratio, accessibility-level breakdown, suggested accessible colour | React 19, TypeScript, Vitest |
