@@ -62,7 +62,7 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 | [**runtrace**](https://github.com/BoogeyCodes/runtrace) | Normalise heterogeneous agent run transcripts into one schema **and a browser run-comparison dashboard**: metrics table, side-by-side bars, and shared-file detection | TypeScript, Vite, Docker |
 | [**patchkit**](https://github.com/BoogeyCodes/patchkit) | Parse, summarise and apply the unified diffs agents produce | Python |
 | [**sandrun**](https://github.com/BoogeyCodes/sandrun) | Sandbox-execution **service**: run agent work against tests (local or Docker), a web dashboard, a REST API, and pass-rate tracking across runs | Python, FastAPI, SQLite, Docker |
-| [**difflens**](https://github.com/BoogeyCodes/difflens) | Side-by-side multi-run diff views of what each agent changed | TypeScript |
+| [**difflens**](https://github.com/BoogeyCodes/difflens) | Multi-run diff library **and DiffLens**, an interactive browser app: per-agent side-by-side diffs, divergence badges, filters and a summary bar | TypeScript, Vite, Docker |
 
 ## Featured projects
 
@@ -75,7 +75,7 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 | [**Trackpense**](https://github.com/BoogeyCodes/trackpense) | Personal finance tracker built entirely in C# with Blazor: transactions, budgets, and a live dashboard with inline-SVG charts | C# / .NET 8, Blazor Server, EF Core, SQLite, Docker |
 | [**pulseboard**](https://github.com/BoogeyCodes/pulseboard) | Real-time fleet monitoring console: telemetry pipeline, alert rules, role-based operations, live dashboard | ASP.NET Core 8, SignalR, Channels, EF Core + Dapper, JWT, React 19, TypeScript, Redux Toolkit, Recharts, Docker |
 | [**shortlink-api**](https://github.com/BoogeyCodes/shortlink-api) | Production-shaped URL shortener: CQRS slices, validation pipeline, RFC 7807 errors, integration tests | ASP.NET Core 8 Minimal API, MediatR, FluentValidation, EF Core, Serilog, xUnit, Docker |
-| [**statemachine**](https://github.com/BoogeyCodes/statemachine) | A declarative finite state machine: states, transitions, guards and callbacks | Python, pytest |
+| [**statemachine**](https://github.com/BoogeyCodes/statemachine) | A declarative finite state machine **and Flowforge**, a workflow engine + dashboard: JSON-defined workflows, durable guarded instances, an SVG diagram per instance, and a REST API | Python, FastAPI, SQLite, Docker |
 | [**expreval**](https://github.com/BoogeyCodes/expreval) | Safe arithmetic expression evaluator (shunting-yard), functions, variables, no `eval` | Python, pytest |
 | [**globlite**](https://github.com/BoogeyCodes/globlite) | Glob matcher (`*`, `**`, `?`, classes, braces) compiled to RegExp | TypeScript, tsup, Vitest |
 | [**tinycsv**](https://github.com/BoogeyCodes/tinycsv) | RFC 4180 CSV parser and stringifier with object mapping | TypeScript, tsup, Vitest |
