@@ -82,7 +82,7 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 | [**Outcome**](https://github.com/BoogeyCodes/outcome) | Result and Option functional types: Map, Bind, Match | C# / .NET 8, xUnit |
 | [**tabulate**](https://github.com/BoogeyCodes/tabulate) | CLI rendering CSV/TSV as aligned ASCII or Markdown tables | C# / .NET 8, xUnit |
 | [**cronparse**](https://github.com/BoogeyCodes/cronparse) | Parse cron expressions, compute the next run times, and describe them in plain English | Python, pytest |
-| [**fuzzykit**](https://github.com/BoogeyCodes/fuzzykit) | String similarity and fuzzy search: Levenshtein, Jaro-Winkler, Sorensen-Dice, ranked search | TypeScript, tsup, Vitest |
+| [**fuzzykit**](https://github.com/BoogeyCodes/fuzzykit) | String similarity + fuzzy search (Levenshtein, Jaro-Winkler, Dice) **and an interactive explorer** that ranks a dataset live, with matched-character highlighting and tunable algorithm/threshold | TypeScript, Vite, Docker |
 | [**bytefmt**](https://github.com/BoogeyCodes/bytefmt) | A `DataSize` value type **and DiskScope**, a disk-usage explorer built on it: a scan engine + an ASP.NET Core dashboard and REST API showing the biggest folders, file types and files | C# / .NET 8, ASP.NET Core, xUnit, Docker |
 | [**quickpoll**](https://github.com/BoogeyCodes/quickpoll) | A **full live-polling web app** — create a poll, share the link, vote once per browser (signed-cookie identity), and watch results update in place; optional deadlines; a clean JSON API underneath | Ruby on Rails 7.1, SQLite, Minitest, Docker |
 | [**recall**](https://github.com/BoogeyCodes/recall) | Spaced-repetition flashcards driven by the SM-2 algorithm; signals and localStorage | Angular 18, TypeScript, Jasmine |
@@ -92,7 +92,7 @@ A suite for reviewing AI coding agents — the workflow of rating, ranking and v
 | [**ratekit**](https://github.com/BoogeyCodes/ratekit) | Zero-dependency keyed rate limiter (token-bucket + sliding-window) **and the Ratekit Gateway**, a rate-limiting reverse proxy built on it: per-route policies, a live dashboard, admin API and CLI | TypeScript, Node, tsup, Vitest, Docker |
 | [**flagpole**](https://github.com/BoogeyCodes/flagpole) | Feature-flag service with deterministic percentage rollouts | Python, FastAPI, Pydantic, pytest |
 | [**jsondiff**](https://github.com/BoogeyCodes/jsondiff) | CLI that structurally diffs two JSON files by path; packable as a dotnet tool | C# / .NET 8, System.Text.Json, xUnit |
-| [**logsift**](https://github.com/BoogeyCodes/logsift) | Zero-dependency CLI to filter and summarise JSON-lines and plain-text logs | Python 3.10+, pytest, ruff, GitHub Actions matrix |
+| [**logsift**](https://github.com/BoogeyCodes/logsift) | Log filtering/summarising CLI **and a web console**: upload logs for a dashboard (level breakdown, error timeline, message patterns) and a live filtered viewer, with a JSON API | Python 3.10+, FastAPI, SQLite, Docker |
 
 More coming regularly. Each repo has a README that explains the design decisions, a test suite and CI.
 
